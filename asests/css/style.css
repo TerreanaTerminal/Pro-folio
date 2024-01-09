@@ -5,17 +5,22 @@
   }
   
   body {
-    background: linear-gradient(to right, #ffc0cb, #ea9999, #c295cf);
+    background: linear-gradient(to bottom , #ffc0cb, #ea9999, #c295cf);
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+  .section {
+    border: 10px solid rgb(37, 4, 44);
+    padding: 20px;
+    margin: 20px;
+}
+
   .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgba(100, 80, 200, 0.8);
-    color: #ffffff;
+    background-color: rgba(41, 7, 210, 0.8);
+    color: #fff8f8;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -60,17 +65,10 @@
     font-size: 16px;
   }
   
-  .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ img {
+    width: 500px;
+    height: 300px;
+ }
   
   .float-left {
     float: left;
@@ -87,37 +85,26 @@
     display: inline-block;
     margin-left: 20px;
   }
-  
-  .benefits {
-    padding: 20px;
-    clear: both;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(100, 80, 200, 0.8);
-    color: #ffffff;
+  #work {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-  }
-  
-  .benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .benefit-lead img, .benefit-brand img, .benefit-cost img  {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-  }
-  
-  .search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
+    align-items: center;
+   }
+   
+   .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
     padding: 50px;
-    height: 300px }
+   }
+   
+   .gallery a {
+    display: block;
+    margin-bottom: 20px;
+   }
+   
+   .gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+   }

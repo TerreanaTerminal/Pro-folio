@@ -10,12 +10,27 @@
     flex-direction: column;
     align-items: center;
   }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .section {
     border: 10px solid rgb(37, 4, 44);
     padding: 20px;
     margin: 20px;
 }
 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.work-section{
+    border: 10px solid rgb(37, 4, 44);
+    padding: 20px;
+    margin: 20px;
+}
   .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -64,10 +79,14 @@
   p {
     font-size: 16px;
   }
-  
- img {
-    width: 500px;
-    height: 300px;
+ .image-container img {
+    height: 200px;
+    width: 200px ;
+ }
+ .main-image-container img {
+    height: 250px;
+    width: 350px;
+    margin: 10px;
  }
   
   .float-left {
@@ -75,9 +94,11 @@
     margin-right: 25px;
   }
   
-  .float-right {
-    float: right;
-    margin-left: 25px;
+  .about-me-image {
+    margin-top: 20px;
+    border: 10px solid rgb(37, 4, 44);
+    width: 500px;
+    height: 300px;
   }
   
   .content {
@@ -85,7 +106,7 @@
     display: inline-block;
     margin-left: 20px;
   }
-  #work {
+  .work-section {
     display: flex;
     flex-direction: column;
     align-items: center;

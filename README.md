@@ -1,6 +1,6 @@
 # Terreana's Profolio
 
-[link to deployed application] ( )
+[link to deployed application] ( https://terreanaterminal.github.io/Pro-folio/ )
 
 [link to Repo] ( https://github.com/TerreanaTerminal/Pro-folio )
 
